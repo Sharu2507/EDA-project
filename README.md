@@ -1,65 +1,70 @@
-# 📊 EDA Project Portfolio
+# 📊 EDA Project Repository – Exploratory Data Analysis Phases
 
-Welcome to my exploratory data analysis (EDA) project repository! This repo contains two major projects:
-
-- ✅ **Air Quality Data Analysis** (from UCI Machine Learning Repository)
-- 🎧 **Spotify Track Audio Feature Analysis & Data Pipeline**
-
-Each project is built using Python and showcases my skills in data wrangling, visualization, and API integration.
+Welcome to the **EDA (Exploratory Data Analysis)** project repository!  
+This repo contains multiple phases of EDA projects using real-world datasets to explore, clean, and visualize data.
 
 ---
 
-## 🌫️ Project 1: Air Quality Data Analysis
+## 🔍 Objective
 
-**Dataset Source:** [UCI Air Quality Dataset](https://archive.ics.uci.edu/dataset/360/air+quality)
+To perform structured data analysis using popular Python libraries and techniques including:
 
-### 🔍 Objective:
-To perform exploratory data analysis on environmental air quality data collected in an Italian city, focusing on pollutant trends, missing data handling, and visual insights.
-
-### 📌 Key Techniques Used:
-- Data cleaning (handling missing values and inconsistent timestamps)
-- Feature engineering for pollutant trends
-- Time-series analysis and visualization
-- Heatmaps and correlation plots using Seaborn and Matplotlib
-
-### 🛠️ Tools & Libraries:
-- `pandas`, `numpy`
-- `matplotlib`, `seaborn`
-- `datetime`, `scikit-learn` (optional preprocessing)
+- 📦 **Data Cleaning**  
+- 📈 **Data Visualization**  
+- 🧮 **Statistical Analysis**  
+- 🧹 **Outlier Detection and Treatment**
 
 ---
 
-## 🎧 Project 2: Spotify Track Audio Feature Analysis
+## 🧰 Tools & Libraries Used
 
-**Dataset Source:** Spotify Web API
-
-### 🔍 Objective:
-To extract and analyze audio features (like danceability, energy, valence, etc.) of tracks using the Spotify Web API and explore their musical characteristics.
-
-### 📌 What It Does:
-- Connects to the Spotify API using `spotipy`
-- Authenticates via OAuth
-- Fetches track metadata and audio features
-- Cleans and interprets song data (regex used for text cleanup)
-- Lays the foundation for building music recommenders or mood classifiers
-
-### 🛠️ Tools & Libraries:
-- `spotipy`
-- `requests`
-- `pandas`
-- `re` (for regex-based cleaning)
+- 🐍 Python 3.x  
+- 📊 **Pandas** – Data manipulation and preprocessing  
+- 🧮 **NumPy** – Numerical operations  
+- 📉 **Matplotlib** – Plotting and basic visualizations  
+- 📌 **Seaborn** – Statistical and advanced plots  
+- 🧼 **IQR Method & Z-score** – Outlier detection and handling
 
 ---
 
-## 📂 Folder Structure
+## 🗂️ Project Structure
 
-```bash
-EDA-project/
-├── airquality-analysis/
-│   ├── air_quality_eda.ipynb
-│   └── air_quality_dataset.csv
-├── spotify-track-pipeline/
-│   ├── spotify_data_pipeline.ipynb
-│   └── requirements.txt
-└── README.md
+This repository is organized by **phases**, each phase covering specific steps of the EDA process.
+
+
+---
+
+## ✅ What’s Done So Far (Phase 1 Summary)
+
+- Loaded and inspected raw data from multiple datasets
+- Cleaned missing and invalid values 
+- Converted date/time columns, extracted `Month`, `Day`, `Hour`
+- Used **Matplotlib** to:
+  - Create bar charts, line plots, scatter plots
+  - Visualize pollutant levels and job trends
+---
+
+## 📌 Upcoming (Future Phases)
+
+- Advanced plotting with **Seaborn**
+- Correlation heatmaps
+- Data transformation for skewed features
+- Feature engineering and grouping
+
+---
+
+## 📚 Datasets Used
+
+- [UCI Air Quality Dataset](https://archive.ics.uci.edu/ml/datasets/Air+Quality)
+- [AI Jobs Dataset] – Contains job title, salary range, experience, and more
+
+---
+
+## 🙋‍♀️ Author
+
+**Sharmila**  
+Learning data science and Python through hands-on EDA projects 🚀
+
+---
+
 
